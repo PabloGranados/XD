@@ -1,48 +1,45 @@
-@keyframes label-animation{
-    from{
-        transform: rotate(0deg);
-        margin-left: 0;
-    }
-    to{
-        transform: rotate(180deg);
-        margin-left: 85vw;
-    }
+@keyframes label-animation {
+	from {
+		transform: rotate(0deg);
+		margin-left: 0;
+	}
+	to {
+		transform: rotate(180deg);
+		margin-left: 85vw;
+	}
 }
 
-h1{
-    
-    width:100%;
-    padding: 1rem;
-    box-sizing: border-box;
+h1 {
+	width: 100%;
+	padding: 1rem;
+	box-sizing: border-box;
 }
 
-h1{
-    width: 400px;
-    background-color: rgb(60, 189, 85);
-    color:white;
-    font-size: 1.3rem;
-    padding: 1rem;
-    border-radius: 20px;
-    text-align: center;
-    /*aqui va la animacion*/
-    animation-name: label-animation;
-    animation-duration: 5s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-direction: alternate-reverse;
+h1 {
+	width: 400px;
+	background-color: rgb(60, 189, 85);
+	color: white;
+	font-size: 1.3rem;
+	padding: 1rem;
+	border-radius: 20px;
+	text-align: center;
+	/*aqui va la animacion*/
+	animation-name: label-animation;
+	animation-duration: 5s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
 }
 
-
-body input[type="button"] {
-    text-align: center;
-    height:auto;
-    width:auto;
-    margin:1em 1em;
-    background:#fff;
-    border:1px solid #f2f2f2;
-    border-radius:20px;
-    text-transform:uppercase;
-    font-family: 'Ubuntu', sans-serif;
-    cursor:pointer;
-
+body input[type='button'] {
+	text-align: center;
+	height: auto;
+	width: auto;
+	margin: 1em 1em;
+	background: #fff;
+	border: 1px solid #f2f2f2;
+	border-radius: 20px;
+	text-transform: uppercase;
+	font-family: 'Ubuntu', sans-serif;
+	cursor: pointer;
 }
